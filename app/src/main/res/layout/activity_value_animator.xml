@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff">
+    <TextView
+            android:id="@+id/label_bar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="1) AccelerateDecelerateInterpolator"
+            android:textColor="#000000"/>
+    <com.listener.animations.view.SegmentedColorBar
+            app:animateStyle="1"
+            android:layout_margin="4dp"
+            android:id="@+id/colorbar2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:segments="12:#2E804A,8:#F8CA42,5:#3c3c3c"
+            app:animate="true"/>
+    <TextView
+
+            android:id="@+id/label_bar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="2) AccelerateInterpolator	"
+            android:textColor="#000000"/>
+    <com.listener.animations.view.SegmentedColorBar
+            app:animateStyle="2"
+            android:id="@+id/colorbar3"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:segments="12:#2E804A,8:#F8CA42,5:#3c3c3c"
+            app:animate="true"/>
+    <TextView
+            android:id="@+id/label_bar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="3) AnticipateInterpolator"
+            android:textColor="#000000"/>
+    <com.listener.animations.view.SegmentedColorBar
+            app:animateStyle="3"
+            android:id="@+id/colorbar4"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:segments="12:#2E804A,8:#F8CA42,5:#3c3c3c"
+            app:animate="true"/>
+    <TextView
+            android:id="@+id/label_bar5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="4) AnticipateOvershootInterpolator"
+            android:textColor="#000000"/>
+    <com.listener.animations.view.SegmentedColorBar
+            app:animateStyle="4"
+            android:id="@+id/colorbar5"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:segments="12:#2E804A,8:#F8CA42,5:#3c3c3c"
+            app:animate="true"/>
+    <TextView
+            android:id="@+id/label_bar6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="5) BounceInterpolator	"
+            android:textColor="#000000"/>
+    <com.listener.animations.view.SegmentedColorBar
+            app:animateStyle="5"
+            android:id="@+id/colorbar6"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:segments="12:#2E804A,8:#F8CA42,5:#3c3c3c"
+            app:animate="true"/>
+    <TextView
+            android:id="@+id/label_bar7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="6) DecelerateInterpolator"
+            android:textColor="#000000"/>
+    <com.listener.animations.view.SegmentedColorBar
+            app:animateStyle="6"
+            android:id="@+id/colorbar7"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:segments="12:#2E804A,8:#F8CA42,5:#3c3c3c"
+            app:animate="true"/>
+    <TextView
+            android:id="@+id/label_bar8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="7) LinearInterpolator"
+            android:textColor="#000000"/>
+    <com.listener.animations.view.SegmentedColorBar
+            app:animateStyle="7"
+            android:id="@+id/colorbar8"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:segments="12:#2E804A,8:#F8CA42,5:#3c3c3c"
+            app:animate="true"/>
+    <TextView
+            android:id="@+id/label_bar9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="8) OvershootInterpolator"
+            android:textColor="#000000"/>
+    <com.listener.animations.view.SegmentedColorBar
+            app:animateStyle="8"
+            android:id="@+id/colorbar9"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:segments="12:#2E804A,8:#F8CA42,5:#3c3c3c"
+            app:animate="true"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_margin="16dp">
+            <Button
+                    android:id="@+id/redraw"
+                    android:text="reset"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"/>
+            <Button
+                    android:id="@+id/next"
+                    android:text="next"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

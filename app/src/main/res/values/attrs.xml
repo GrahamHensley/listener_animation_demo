@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SegmentedColorBar">
+        <attr name="segments" format="string" />
+        <attr name="animate" format="boolean" />
+        <attr name="animateStyle" format="integer" />
+    </declare-styleable>
+</resources>
